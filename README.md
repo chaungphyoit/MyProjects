@@ -244,11 +244,133 @@ Executed a large-scale infrastructure migration project to modernize IT systems,
 
 ---------------------
 
+# Sysnet System and Solutions - Intune and SCCM Co-Management Project (For one of the AirLines in Singapore)
+
+## Project Description
+Successfully deployed Microsoft Intune and SCCM Co-Management to modernize device management, enhance security, and enable hybrid management capabilities for the organization. The project leveraged co-management to transition from traditional on-premises management to a modern cloud-driven approach, ensuring flexibility and improved user experience.
 
 
+## Tools and Technology Used
+- Microsoft Active Directory and Entra ID
+- System Center Configuration Manager (SCCM)
+- Microsoft Intune
+
+### Implementation Overvie
+- Setup and Configure Intune and SCCM Co-Management 
+- Configure Cloud Management Gateway
+- Configure workloads
+- Work with network team for network requiements in enrolling devices, deploying apps, etc. (Since customer environment have strict network infrastructure)
+- Enroll Windows 10 devices phase by phase
+- Deploy Windows 10 Security Baselines
+- Configure Conditional Access and security policies
+- Configure Windows Update Rings
+
+---------------------
+# NEX4 ICT Solutions - Active Directory Upgrade and Exchange Server Migration (2010 to Exchange Online)
+
+## Project Description
+Successfully migrated the organization’s on-premises Exchange Server 2010 environment to Exchange Online, a cloud-based solution within Microsoft 365. The project aimed to enhance email performance, scalability, and security while reducing on-premises infrastructure dependencies. A hybrid migration approach was used to ensure a seamless transition with minimal disruption to business operations.
 
 
+## Tools and Technology Used
+- Microsoft Exchange Server
+- Azure AD Connect and Active Directory
+- Exchange Online
+- Exchange Hybrid Configuration Wizard
+
+### Implementation Overvie
+- Access existing environment and perform health check 
+- Propose migration strategy (Exchange Hybrid Setup)
+- Perform Exchange Server CU update
+- Setup Azure AD Connect
+- Configure Exchange Hybrid Configuration Wizard
+- Configure DNS Records
+- Mailbox migration by batches
+- Perform Cutover and decommission Exchange Server 2010
+- Added new Domain Controller
+- Transfer FSMO roles and perform cleanup of old domain controller
+- Upgrade Forest and Domain Functional levels
+
+---------------------
+
+# NEX4 ICT Solutions - Multiple Active Directory Upgrade and Exchange Server Migration Projects (For CB Bank, Shwe Taung Engineering and Construction, Posco International Myanmar)
+
+## Project Description
+Successfully migrated the organization’s on-premises Exchange Server 2010 environment to Exchange Online, a cloud-based solution within Microsoft 365. The project aimed to enhance email performance, scalability, and security while reducing on-premises infrastructure dependencies. A hybrid migration approach was used to ensure a seamless transition with minimal disruption to business operations.
 
 
+## Tools and Technology Used
+- Microsoft Exchange Server
+- Azure AD Connect and Active Directory
+- Exchange Online
+- Exchange Hybrid Configuration Wizard
+
+### Implementation Overvie
+- Access existing environment and perform health check 
+- Propose migration strategy (Exchange Hybrid Setup)
+- Perform Exchange Server CU update
+- Setup Azure AD Connect
+- Configure Exchange Hybrid Configuration Wizard
+- Configure DNS Records
+- Mailbox migration by batches
+- Perform Cutover and decommission Exchange Server 2010
+- Added new Domain Controller
+- Transfer FSMO roles and perform cleanup of old domain controller
+- Upgrade Forest and Domain Functional levels
+
+---------------------
+
+# NEX4 ICT Solutions - Active Directory Infrastructure Setup (For Yoma Strategic Holdings)
+
+## Project Description
+Designed and implemented a robust Active Directory (AD) infrastructure supporting multiple domains and a hybrid configuration with Azure Active Directory (Azure AD). This project aimed to centralize identity management, enable seamless user authentication across domains, and integrate on-premises AD with Azure AD for modern cloud-based capabilities.
+
+
+## Tools and Technology Used
+- Microsoft Active Directory
+- Azure AD Connect
+- Group Policy Management Console
+- Powershell
+
+### Implementation Overview
+- Requirement gathering for customer's environment
+- Propose AD Forest and Domain Design inclusive of Organizational Structure
+- Install and configure Primary and Secondary Domain Controllers
+- Configure UPN Suffixes (As customer has multiple domains and business units)
+- Create OUs based on best practices 
+- Configure AD Connect
+- Verify multiple domains in M365 
+- Import users by using PowerShell and map them to appropriate email domains
+- Implemented Group Policies for centralized endpoint management
+- Configure AD Site and Services
+- Troubleshooting and Support
+
+---------------------
+
+# NEX4 ICT Solutions - SCCM and Intune Co-Management Project (Myanmar Post and Telecommunications)
+
+## Project Description
+Successfully implemented a comprehensive endpoint management and security strategy by integrating SCCM (System Center Configuration Manager) and Intune for co-management, deploying a standardized Windows 10 golden image through SCCM, and enhancing endpoint security across the organization. The project aimed to streamline device management, reduce operational overhead, and strengthen the organization’s security posture.
+
+
+## Tools and Technology Used
+- System Center Configuration Manager (SCCM)
+- Microsoft Intune
+- Powershell
+
+### Implementation Overview
+- Accessment for customer's existing environment (Including AD, SCCM, M365, Requirements for Golden Image)
+- Propose solutions for Co-management, Golden Image and Security enhancement for Windows 10
+- Configure SCCM and Intune Co-Management
+- Configure Workloads
+- Configure Automatic Enrollment in Intune
+- Prepare SCCM Environment for OS Deployment (Install ADK, Boot Images, Distribution Points, PXE, etc)
+- Prepare and capture reference Image
+- Configure driver installation for each device model
+- Configure Task Sequence for OS deployment to meet customer's requirements in Golden Image (BitLocker, Start Menu and Task Bar, Language Packs, etc)
+- Distribute Golden Image Content across multiple Distribution Points
+- Troubleshooting and Support
+
+---------------------
 
 
