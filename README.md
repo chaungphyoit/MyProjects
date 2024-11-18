@@ -38,6 +38,8 @@ Designed and deployed a unified device management solution using Microsoft Intun
 - Add applications from Volume Purchase Program (VPP) and sync to Intune
 - Setup Company Portal
 - Deploy apps, app configurations and app protection policies
+  
+---------------------
 
 # Sunningdale Tech - Windows AutoPilot 
 
@@ -62,6 +64,7 @@ Implemented a Windows Autopilot solution to simplify and automate the provisioni
 - Configure Windows Hello for Business
 - Configure Seamless SSO for Entra Joined devices to access on-premise resources
 
+---------------------
 
 # Sunningdale Tech - Information Protection & Data Loss Prevention
 
@@ -82,6 +85,8 @@ Designed and implemented a comprehensive Information Protection and Data Loss Pr
 - Configuring alerts and fine tuning of policies
 - End-User Enablement (Training and Adoption)
 
+---------------------
+
 # Sunningdale Tech - Power Platform Governance
 
 ## Project Description
@@ -98,6 +103,7 @@ Implemented a robust Power Platform Governance Framework for Sunningdale Tech us
 - Training session with App Makers regarding Power Platform Governance
 - Migrate existing apps from Default Environment to proper environment 
 
+---------------------
 
 # Sunningdale Tech - Security and Compliance
 
@@ -115,12 +121,68 @@ Implemented a comprehensive security and compliance enhancement project to impro
 - Analyze Recommended Actions (Defender Portal - Exposure Management) and Improvement Actions (Purview - Compliance Manager)
 - List out 10 to 20 actions and have recurring meeting with respective subject matter experts for deciding which actions to implement, take risk or make exceptions
 - Propose remediation actions, deployment rings and roll back plans
+- Assign improvement actions to related subject matter experts, upload evidences for actions which require manual testing
 - Create device groups in Defender Portal for each Country
 - Create remediation actions in Defender Portal to monitor the remediation process
 - Deploy improvement actions based on deployment rings
 - Monitoring and Rollback if needed
-- For compliance score, Assign improvement actions to related subject matter experts, upload evidences for actions which require manual testing
+  
+---------------------
 
+# Sunningdale Tech - Golden Image for Windows 10
+
+## Project Description
+Designed and implemented a Windows 10 Golden Image Deployment solution using Microsoft Deployment Toolkit (MDT) and Windows Deployment Services (WDS). This project aimed to standardize Windows 10 installations across the organization, streamline device provisioning, and ensure consistency in configurations and security compliance.
+
+
+## Tools and Technology Used
+- Microsoft Deployment Toolkit
+- Windows Deployment Services
+- DHCP Server
+- Windows Server
+
+
+### Implementation Overview
+- Install and configure WDS Server
+- Prepare Deployment Workbench (Deployment Share, Driver Repository, Selection Profiles, Bootstrap.ini, Boot Images, Win PE drivers, etc)
+- Configure DHCP server for PXE boot
+- Prepare Reference Image in Hypver-V
+- Capture the reference image and put into deployment share
+- Import required drivers for each device model
+- Configure Task Sequence
+- Test Golden Image
+- Create Standalone media for flexible OS deployment without PXE
+  
+
+---------------------
+
+# Sunningdale Tech - SysAid ITSM
+
+## Project Description
+Implemented and customized the SysAid IT Service Management (ITSM) solution to streamline IT operations, enhance service delivery, and improve incident and request management efficiency. The project aimed to align IT processes with business objectives while adhering to ITIL (Information Technology Infrastructure Library) best practices.
+
+
+## Tools and Technology Used
+- SysAid ITSM Solution
+- Microsoft Entra ID
+- Microsoft Teams Admin Center
+
+
+### Implementation Overview
+- Setup and configure SysAid ITSM Solution
+- Configure SSO integration with Microsoft Entra ID
+- Configure Categories for Incidents, Tickets and Changes
+- Configure Companies and Groups
+- Onboard Administrators
+- Configure ticket routing
+- Deploy SysAid Agent to EndPoints
+- Configure Chat Bot and integrate with Microsoft Teams
+- Configure Service Catalog
+- Configure and customize Self Service Portal for end-users
+- Configure knowledge base and FAQs
+- Configure workflows for approvals and change management
+- List and import CMDB 
+---------------------
 
 
 
