@@ -266,32 +266,6 @@ Successfully deployed Microsoft Intune and SCCM Co-Management to modernize devic
 - Configure Windows Update Rings
 
 ---------------------
-# NEX4 ICT Solutions - Active Directory Upgrade and Exchange Server Migration (2010 to Exchange Online)
-
-## Project Description
-Successfully migrated the organization’s on-premises Exchange Server 2010 environment to Exchange Online, a cloud-based solution within Microsoft 365. The project aimed to enhance email performance, scalability, and security while reducing on-premises infrastructure dependencies. A hybrid migration approach was used to ensure a seamless transition with minimal disruption to business operations.
-
-
-## Tools and Technology Used
-- Microsoft Exchange Server
-- Azure AD Connect and Active Directory
-- Exchange Online
-- Exchange Hybrid Configuration Wizard
-
-### Implementation Overvie
-- Access existing environment and perform health check 
-- Propose migration strategy (Exchange Hybrid Setup)
-- Perform Exchange Server CU update
-- Setup Azure AD Connect
-- Configure Exchange Hybrid Configuration Wizard
-- Configure DNS Records
-- Mailbox migration by batches
-- Perform Cutover and decommission Exchange Server 2010
-- Added new Domain Controller
-- Transfer FSMO roles and perform cleanup of old domain controller
-- Upgrade Forest and Domain Functional levels
-
----------------------
 
 # NEX4 ICT Solutions - Multiple Active Directory Upgrade and Exchange Server Migration Projects (For CB Bank, Shwe Taung Engineering and Construction, Posco International Myanmar)
 
