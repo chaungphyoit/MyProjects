@@ -184,7 +184,65 @@ Implemented and customized the SysAid IT Service Management (ITSM) solution to s
 - List and import CMDB 
 ---------------------
 
+# Sysnet System and Solutions - Infrastructure migration (For one of the Financial Companies in Singapore)
 
+## Project Description
+Executed a large-scale infrastructure migration project to modernize IT systems, improve performance, and ensure scalability. The scope included migrating Active Directory (AD), DFS File Share, Exchange Server, and SQL Server to newer platforms, minimizing downtime and ensuring seamless user experience.
+
+
+## Tools and Technology Used
+- Microsoft Active Directory
+- DFS File Server with Kemp Load Balancer
+- Microsoft Exchange Server
+- Microsoft SQL Server
+- Windows Server Failover Cluster
+
+
+### Implementation Overview (Active Directory)
+- Perform health check for existing environment
+- Propose migration and upgrade plan to customer
+- Adding additional domain controllers
+- Transfer FSMO roles
+- Decommission of old domain controllers and objects
+- Upgrade Forest and Domain functional levels
+- Monitoring and Support
+
+  ### Implementation Overview (Exchange Server 2013 to 2019)
+- Perform health check for existing environment
+- Propose migration and upgrade plan to customer
+- Install Latest CU for existing Exchange Servers
+- Prepare active directory environment
+- Install and Configure new Exchange Server 2019
+- Configure Virtual Directories, Database Availability Group, Connetors, etc
+- Migrate exchange certificates to new Exchange Server
+- Configure mailflow for new exchange servers
+- Migrate Mailboxes
+- Test mailflow and High Availability 
+- Decommision of old Exchange 2013 Servers
+- Renew Exchange Server Certificate
+
+### Implementation Overview (File Server with DFS)
+- Perform health check for existing environment
+- Propose migration and upgrade plan
+- Install and configure new DFS servers
+- Work with network team in configuring Kemp Load Balancer for DFS Server
+- Configure DFS Namespace
+- Schedule data transfer from existing DFS server to new Servers using robocopy
+- Verify all data are migrated to new DFS Servers (Used WinMerge tool to compare two DFS Servers)
+- Test High Availability and Load Balancing
+- Cutover and cleanup for old DFS Servers
+
+### Implementation Overview (Microsoft SQL Server)
+- Perform health check for existing environment
+- Propose migration and upgrade plan
+- Install and configure new SQL Servers
+- Configure Windows Server Failover Cluster
+- Configure SQL Server Always On Availability
+- Perform Database Migration
+- Testing and Validation
+- Decommission of old SQL Servers
+
+---------------------
 
 
 
